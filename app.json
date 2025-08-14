@@ -7,7 +7,9 @@
       "expo-speech-recognition"
     ],
     "android": {
-      "package": "com.ayeshaai.myapp"
+      "package": "com.ayeshaai.myapp",
+      "enableAndroidX": true,
+      "enableJetifier": true
     },
     "platforms": [
       "android",
