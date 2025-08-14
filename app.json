@@ -1,20 +1,11 @@
 {
   "expo": {
     "name": "my-app",
-    "slug": "my-app", 
+    "slug": "my-app",
     "version": "1.0.0",
-    "plugins": [
-      "expo-speech-recognition"
-    ],
     "android": {
-      "package": "com.ayeshaai.myapp",
-      "enableAndroidX": true,
-      "enableJetifier": true
+      "package": "com.ayeshaai.myapp"
     },
-    "platforms": [
-      "android",
-      "ios"
-    ],
     "extra": {
       "eas": {
         "projectId": "9bb5e775-4239-4925-8c85-fe4b75680f87"
