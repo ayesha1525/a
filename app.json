@@ -1,26 +1,22 @@
 {
   "expo": {
     "name": "my-app",
-    "slug": "my-app",
+    "slug": "my-app", 
     "version": "1.0.0",
     "plugins": [
       "expo-speech-recognition"
     ],
     "android": {
-      "permissions": [
-        "RECORD_AUDIO",
-        "READ_CALENDAR",
-        "WRITE_CALENDAR"
-      ]
+      "package": "com.ayeshaai.myapp"
     },
-    "sdkVersion": "53.0.0",
-    "platforms": ["android", "ios"],
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": ["**/*"],
-    "ios": {
-      "supportsTablet": true
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "9bb5e775-4239-4925-8c85-fe4b75680f87"
+      }
     }
   }
 }
