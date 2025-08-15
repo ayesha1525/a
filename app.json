@@ -1,13 +1,31 @@
 {
   "expo": {
-    "name": "my-app",
-    "slug": "my-app",
+    "name": "AyaSync",
+    "slug": "ayasync-organizer",
     "version": "1.0.0",
     "sdkVersion": "51.0.0",
     "platforms": ["ios", "android"],
     "android": {
-      "package": "com.ayeshaai.myapp"
+      "package": "com.ayeshaai.myapp",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "config": {
+        "useAndroidX": true
+      }
     },
+    "plugins": [
+      [
+        "expo-build-properties", 
+        {
+          "android": {
+            "useAndroidX": true,
+            "enableJetifier": true
+          }
+        }
+      ]
+    ],
     "extra": {
       "eas": {
         "projectId": "9bb5e775-4239-4925-8c85-fe4b75680f87"
