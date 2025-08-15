@@ -10,22 +10,9 @@
       "versionCode": 1,
       "permissions": [
         "android.permission.RECORD_AUDIO"
-      ],
-      "config": {
-        "useAndroidX": true
-      }
-    },
-    "plugins": [
-      [
-        "expo-build-properties", 
-        {
-          "android": {
-            "useAndroidX": true,
-            "enableJetifier": true
-          }
-        }
       ]
-    ],
+    },
+
     "extra": {
       "eas": {
         "projectId": "9bb5e775-4239-4925-8c85-fe4b75680f87"
