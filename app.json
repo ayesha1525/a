@@ -3,11 +3,10 @@
     "name": "my-app",
     "slug": "my-app",
     "version": "1.0.0",
+    "sdkVersion": "51.0.0",
     "platforms": ["ios", "android"],
     "android": {
-      "package": "com.ayeshaai.myapp",
-      "enableAndroidX": true,
-      "enableJetifier": true
+      "package": "com.ayeshaai.myapp"
     },
     "extra": {
       "eas": {
