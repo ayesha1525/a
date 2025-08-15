@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "AyaSync",
-    "slug": "ayasync-organizer",
+    "slug": "my-app",
     "version": "1.0.0",
     "sdkVersion": "51.0.0",
     "platforms": ["ios", "android"],
@@ -10,7 +10,12 @@
       "versionCode": 1,
       "permissions": [
         "android.permission.RECORD_AUDIO"
-      ]
+      ],
+      "manifest": {
+        "application": {
+          "@tools:replace": "android:appComponentFactory"
+        }
+      }
     },
 
     "extra": {
